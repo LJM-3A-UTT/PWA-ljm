@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "eslint": "^9.35.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "prettier": "^3.6.2",
+    "workbox-cli": "^7.3.0"
+  },
+  "dependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.6"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
