@@ -12,5 +12,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
+      - name: Fix husky permissions
+        run: chmod +x node_modules/.bin/husky || true
       - run: npm install
       - run: npm run build
