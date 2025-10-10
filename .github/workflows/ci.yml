@@ -16,3 +16,8 @@ jobs:
         run: chmod +x node_modules/.bin/husky || true
       - run: npm install
       - run: npm run build
+      - name: Install dependencies
+        run: cd my-pwa && npm install
+      
+      - name: Build
+        run: cd my-pwa && npm run build
