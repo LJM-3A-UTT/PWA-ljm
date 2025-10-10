@@ -20,5 +20,6 @@ jobs:
       - name: Install dependencies
         run: cd my-pwa && npm install
       
-      - name: Build
-        run: cd my-pwa && npm run build
+      - name: Build app
+        run: npm run build
+        working-directory: my-pwa
